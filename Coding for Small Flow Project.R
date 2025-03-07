@@ -84,6 +84,7 @@ mk_test <- mk.test(flow_complete$trend)
 # Print test results
 print(mk_test)
 
+#### Yes, the flows are statistically significantly increasing
 
 # Fit a linear regression model to the trend data
 lm_trend <- lm(trend ~ date, data = flow_complete)
